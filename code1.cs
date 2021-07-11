@@ -12,12 +12,12 @@ namespace MyBiography
             string Name = "Catherine";
             int Age = 39;
             bool isFemale = true;
-            float MyFloat = 3.5f;
+            float numberTerms = 4.5f;
 
             Console.WriteLine("My name is {0}.", Name);
             Console.WriteLine("I am {0} years old.", Age);
             Console.WriteLine("Female: {0}", isFemale);
-            Console.WriteLine("Sample float type: {0}", MyFloat);
+            Console.WriteLine("Student at CityU for {0} terms.", numberTerms);
         }
     }
 }

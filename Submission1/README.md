@@ -14,10 +14,12 @@ User2: Cath2A - Contributor to TestCase1
 
 Activities:
 
-Added code1 to Submission1 folder.
+1. Added code1 to Submission1 folder.
 
-Added code2 to Submission1 folder.
+2. Added code2 to Submission1 folder.
 
-Added Test Case artifacts to Submission1 folder.
+3. Added Test Case artifacts to Submission1 folder.
 
-Deleted code2 from Submission1 folder.
+4. Deleted code2 from Submission1 folder.
+
+5. User2:Cath-2A pulled request.

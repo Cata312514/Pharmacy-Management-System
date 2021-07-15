@@ -23,3 +23,5 @@ Activities:
 4. Deleted code2 from Submission1 folder.
 
 5. User2:Cath-2A pulled request.
+
+6. Updated Form1.cs and added new method.

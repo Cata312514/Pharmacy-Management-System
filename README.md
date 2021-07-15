@@ -13,7 +13,12 @@ TestCase1 containt C# code logic, Form design, and an xls file containing the te
 User1: Cata312514 - Author of TestCase1, with Admin rights
 User2: Cath2A -  Contributor to TestCase1
 
-Added code1 to Submission1 folder.
-Added code2 to Submission1 folder.
-Added TestCase1 to Submission1 folder.
-Deleted code2 from Submission1 folder.
+Activities:
+
+1. Added code1 to Submission1 folder.
+
+2. Added code2 to Submission1 folder.
+
+3. Added TestCase to Submission1 folder.
+
+4. Deleted code2 from Submission1 folder.

@@ -24,4 +24,4 @@ Activities:
 
 5. User2:Cath-2A pulled request.
 
-6. Cath-2A created new branch from main called Cath-2A-patch1 and updated Form1.cs and committed changes to new branch. 
+6. Cath-2A created new branch from main called Cath-2A-patch-1 and updated Form1.cs and committed changes to new branch. 

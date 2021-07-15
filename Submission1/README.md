@@ -18,6 +18,6 @@ Added code1 to Submission1 folder.
 
 Added code2 to Submission1 folder.
 
-Added TestCase to Submission1 folder.
+Added Test Case artifacts to Submission1 folder.
 
 Deleted code2 from Submission1 folder.

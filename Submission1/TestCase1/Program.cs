@@ -5,31 +5,32 @@ Simple script to introduce self.
 Asking user name input and a simple greeting.
 */
 
-namespace TestCase1 
-    
+namespace TestCase1
+{
+
     class Greet_User
+
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string firstName = "Catherine";
             int Age = 39;
             bool isFemale = true;
             float numberTerms = 4.5f;
 
-            Console.WriteLine("My name is {0} .", fullName);
+            Console.WriteLine("My name is {0} .", firstName);
             Console.WriteLine("I am {0} years old.", Age);
             Console.WriteLine("Female: {0}", isFemale);
             Console.WriteLine("Student at CityU for {0} terms.", numberTerms);
             
             // Ask user to input name
-            Console.Writeline("May I know your name?");
+            Console.WriteLine("May I know your name?");
 
             // Create a string variable and get user input from the keyboard then store it in a variable
-            string userName = Console.Readline();
+            string userName = Console.ReadLine();
 
             // Print the inputted value of the userName variable along with the greeting.
-            Console.Writeline("Hello {0}, it is nice to meet you!", userName);
-
+            Console.WriteLine("Hello {0}, it is nice to meet you!", userName);
         }
     }
 }

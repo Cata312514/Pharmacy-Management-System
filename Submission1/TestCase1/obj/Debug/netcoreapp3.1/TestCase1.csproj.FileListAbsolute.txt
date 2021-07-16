@@ -1,0 +1,13 @@
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\obj\Debug\netcoreapp3.1\TestCase1.csproj.AssemblyReference.cache
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\obj\Debug\netcoreapp3.1\TestCase1.AssemblyInfoInputs.cache
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\obj\Debug\netcoreapp3.1\TestCase1.AssemblyInfo.cs
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\obj\Debug\netcoreapp3.1\TestCase1.csproj.CoreCompileInputs.cache
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\bin\Debug\netcoreapp3.1\TestCase1.exe
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\bin\Debug\netcoreapp3.1\TestCase1.deps.json
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\bin\Debug\netcoreapp3.1\TestCase1.runtimeconfig.json
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\bin\Debug\netcoreapp3.1\TestCase1.runtimeconfig.dev.json
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\bin\Debug\netcoreapp3.1\TestCase1.dll
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\bin\Debug\netcoreapp3.1\TestCase1.pdb
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\obj\Debug\netcoreapp3.1\TestCase1.dll
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\obj\Debug\netcoreapp3.1\TestCase1.pdb
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase1\obj\Debug\netcoreapp3.1\TestCase1.genruntimeconfig.cache

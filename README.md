@@ -50,3 +50,11 @@ Activities done:
 
 13. User2:Cath-2A merge Cath-2A-patch-2-add-method to Cata312514-patch-1-debugged-last-method
 
+14. User2:Cath-2A created new branch.
+
+15. User2:Cath-2A combined 2 string variables into 1 variable and changed the Writeline contruction. Added comment for suggestion: Add user input. 
+
+16. User1:Cata312514 reviewed changes from Cath-2A and added user input to code1.cs.
+
+17. User1:Cata312514 merged branch Cath-2A-patch-3-combined-variables to main branch.
+

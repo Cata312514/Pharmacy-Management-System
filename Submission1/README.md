@@ -24,36 +24,6 @@ Users:
 
 Activities done:
 
-1. Added code1 to Submission1 folder.
+1. User1:Cata312514 created and added TestCase1 to Submission1 folder.
 
-2. Added code2 to Submission1 folder.
-
-3. Added Test Case artifacts to Submission1 folder.
-
-4. Deleted code2 from Submission1 folder.
-
-5. User2:Cath-2A pulled request.
-
-6. Cath-2A created new branch from main called Cath-2A-patch-1 and updated Form1.cs and committed changes to new branch. 
-
-7. User1:Cata312514 created new branch Cata312514-patch-1-debugged-last-method from main.
-
-8. User1:Cata312514 debugged code from Form1.cs. Fixed arguments on webBrowser1_DocumentCompleted method.
-
-9. User1:Cata312514 merge branch Cata312514-patch-1-debugged-last-method to main.
-
-10. Both users added new versions. Current version 16.
-
-11. User2:Cath-2A created branch Cath-2A-patch-2-add-method from Cath-2A-patch-1.
-
-12. User2:Cath-2A updated Form1.cs; added new methods/features. version17. 
-
-13. User2:Cath-2A merge Cath-2A-patch-2-add-method to Cata312514-patch-1-debugged-last-method
-
-14. User2:Cath-2A created new branch.
-
-15. User2:Cath-2A combined 2 string variables into 1 variable and changed the Writeline contruction. Added comment for suggestion: Add user input. 
-
-16. User1:Cata312514 reviewed changes from Cath-2A and added user input to code1.cs.
-
-17. User1:Cata312514 merged branch Cath-2A-patch-3-combined-variables to main branch.
+2. User1:Cata312514 added TestCase1 artifacts to Submission1 folder.

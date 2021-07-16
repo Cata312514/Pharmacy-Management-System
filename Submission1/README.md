@@ -52,3 +52,5 @@ Activities done:
 
 14. User2:Cath-2A combined 2 string variables into 1 variable and changed the Writeline contruction. Added comment for suggestion: Add user input. 
 
+15. User1:Cata312514 reviewed changes from Cath-2A and added user input to code1.cs.
+

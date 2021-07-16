@@ -18,11 +18,7 @@ namespace TestCase1
             bool isFemale = true;
             float numberTerms = 4.5f;
 
-            Console.WriteLine("My name is {0} .", firstName);
-            Console.WriteLine("I am {0} years old.", Age);
-            Console.WriteLine("Female: {0}", isFemale);
-            Console.WriteLine("Student at CityU for {0} terms.", numberTerms);
-            
+                      
             // Ask user to input name
             Console.WriteLine("May I know your name?");
 
@@ -31,6 +27,11 @@ namespace TestCase1
 
             // Print the inputted value of the userName variable along with the greeting.
             Console.WriteLine("Hello {0}, it is nice to meet you!", userName);
+
+            Console.WriteLine("My name is {0} .", firstName);
+            Console.WriteLine("I am {0} years old.", Age);
+            Console.WriteLine("Female: {0}", isFemale);
+            Console.WriteLine("Student at CityU for {0} terms.", numberTerms);
         }
     }
 }

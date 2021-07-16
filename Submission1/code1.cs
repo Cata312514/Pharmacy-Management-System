@@ -1,10 +1,10 @@
 using System;
 
-/* Sample code for Submission1
-Simple bio of myself.
-Adding user input.
+/* Test Case 1 for Submission1
+Simple script to introduce self.
+Asking user name input and a simple greeting.
 */
-namespace MyBiography
+namespace Conversation
 {
     class Sample
     {

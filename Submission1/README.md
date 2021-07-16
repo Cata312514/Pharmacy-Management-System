@@ -58,7 +58,3 @@ Activities done:
 
 17. User1:Cata312514 merged branch Cath-2A-patch-3-combined-variables to main branch.
 
-# CS504-Individual-Project-CatherineAta
-This is a repository for my CS504 Individual Project.
-
-

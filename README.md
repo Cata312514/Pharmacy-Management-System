@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Submission 1 involves implementing Configuration Management System(CMS) on a simple Web Browser application called TestCase1.
 This will also cover the following activities:
 1. Code check out
@@ -22,3 +23,10 @@ Activities:
 3. Added TestCase to Submission1 folder.
 
 4. Deleted code2 from Submission1 folder.
+=======
+# CS504-Individual-Project-CatherineAta
+This is a repo for my CS504 Individual Project on a system design on a simple web browser application. 
+
+
+
+>>>>>>> 287cdabe574e4cdad62d127ec34acd965574813a

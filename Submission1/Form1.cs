@@ -40,9 +40,9 @@ namespace TestCase1
             webBrowser1.Navigate(cboLocation.Text);
         }
         
-        private void webBrowser_DocumentComplete(object sender, WebBrowserDocumentCOmpleted)
-        { 
-            Test = "TestCase - " + webBrowser1.Document.Title;
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            Text = "TestCase - " + webBrowser1.Document.Title;
         }
     }
 }

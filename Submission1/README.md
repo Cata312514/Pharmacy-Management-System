@@ -44,3 +44,9 @@ Activities done:
 
 10. Both users added new versions. Current version 16.
 
+11. User2:Cath-2A created branch Cath-2A-patch-2-add-method from Cath-2A-patch-1.
+
+12. User2:Cath-2A updated Form1.cs; added new methods/features. version17. 
+
+13. User2:Cath-2A merge Cath-2A-patch-2-add-method to Cata312514-patch-1-debugged-last-method
+

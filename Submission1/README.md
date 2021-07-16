@@ -10,7 +10,7 @@ This will also cover the following activities:
 
 4. Code in development by two users
 
-5.Code changes rolled back to a previous level
+5. Code changes rolled back to a previous level
 
 6. New version
 

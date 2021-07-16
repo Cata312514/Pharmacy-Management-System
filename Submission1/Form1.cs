@@ -44,5 +44,20 @@ namespace TestCase1
         {
             Text = "TestCase - " + webBrowser1.Document.Title;
         }
+        
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate(textBox1.Text);
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Refresh();
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("https://google.com");
+        }
     }
 }

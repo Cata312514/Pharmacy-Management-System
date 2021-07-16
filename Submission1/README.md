@@ -38,9 +38,9 @@ Activities done:
 
 7. User1:Cata312514 created new branch Cata312514-patch-1-debugged-last-method from main.
 
-8. debugged code from Form1.cs. Fixed arguments on webBrowser1_DocumentCompleted method.
+8. User1:Cata312514 debugged code from Form1.cs. Fixed arguments on webBrowser1_DocumentCompleted method.
 
-9.  User1:Cata312514 merge branch Cata312514-patch-1-debugged-last-method to main.
+9. User1:Cata312514 merge branch Cata312514-patch-1-debugged-last-method to main.
 
 10. Both users added new versions. Current version 16.
 

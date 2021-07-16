@@ -23,7 +23,6 @@ namespace TestCase1
             {
                 webBrowser1.Navigate(cboLocation.Text);
             }
-                
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -39,6 +38,26 @@ namespace TestCase1
         private void btnGo_Click(object sender, EventArgs e)
         {
             webBrowser1.Navigate(cboLocation.Text);
+        }
+        
+        private void webBrowser1_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            Text = "TestCase - " + webBrowser1.Document.Title;
+        }
+        
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate(textBox1.Text);
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Refresh();
+        }
+
+        private void btnHome_Click(object sender, EventArgs e)
+        {
+            webBrowser1.Navigate("https://google.com");
         }
     }
 }

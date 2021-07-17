@@ -23,41 +23,25 @@ namespace TestCase2WebBrowser
             {
                 webBrowser3.Navigate(cboLocation.Text);
             }
-        }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-            webBrowser1.GoBack();
+                webBrowser1.GoBack();
         }
 
         private void btnForward_Click(object sender, EventArgs e)
         {
-            webBrowser1.GoForward();
+                webBrowser1.GoForward();
         }
 
         private void btnGo_Click(object sender, EventArgs e)
         {
-            webBrowser1.Navigate(cboLocation.Text);
+                webBrowser1.Navigate(cboLocation.Text);
         }
 
-        private void webBrowser3_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            Text = "TestCase2WB - " + webBrowser3.Document.Title;
-        }
 
-        private void btnRefresh_Click(object sender, EventArgs e)
-        {
-            webBrowser3.Refresh();
-        }
-
-        private void btnSearch_Click(object sender, EventArgs e)
-        {
-            webBrowser3.Navigate(textBox1.Text);
-        }
-
-        private void btnHome_Click(object sender, EventArgs e)
-        {
-            webBrowser3.Navigate("www.google.com");
         }
     }
 }

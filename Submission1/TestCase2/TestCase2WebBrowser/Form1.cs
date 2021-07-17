@@ -23,18 +23,7 @@ namespace TestCase2WebBrowser
             {
                 webBrowser3.Navigate(cboLocation.Text);
             }
-        }
-
-        private void webBrowser3_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
-        {
-
-        }
-
-        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
+        
         private void btnBack_Click(object sender, EventArgs e)
         {
             webBrowser3.GoBack();
@@ -48,6 +37,16 @@ namespace TestCase2WebBrowser
         private void btnGo_Click(object sender, EventArgs e)
         {
             webBrowser3.Navigate(cboLocation.Text);
+        }
+        
+        private void webBrowser3_DocumentCompleted(object sender, WebBrowserDocumentCompletedEventArgs e)
+        {
+            Text = "TestCase - " + webBrowser1.Document.Title;
+        }
+        
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

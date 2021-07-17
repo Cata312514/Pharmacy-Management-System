@@ -29,6 +29,7 @@ namespace TestCase2WebBrowser
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.webBrowser1 = new System.Windows.Forms.WebBrowser();
@@ -39,6 +40,7 @@ namespace TestCase2WebBrowser
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.cboLocation = new System.Windows.Forms.ToolStripComboBox();
             this.btnGo = new System.Windows.Forms.ToolStripButton();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,7 +80,9 @@ namespace TestCase2WebBrowser
             // 
             // webBrowser3
             // 
+            this.webBrowser3.ContextMenuStrip = this.contextMenuStrip1;
             this.webBrowser3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.webBrowser3.IsWebBrowserContextMenuEnabled = false;
             this.webBrowser3.Location = new System.Drawing.Point(0, 34);
             this.webBrowser3.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser3.Name = "webBrowser3";
@@ -128,6 +132,12 @@ namespace TestCase2WebBrowser
             this.btnGo.Text = "Go";
             this.btnGo.Click += new System.EventHandler(this.btnGo_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -157,6 +167,7 @@ namespace TestCase2WebBrowser
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripComboBox cboLocation;
         private System.Windows.Forms.ToolStripButton btnGo;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
     }
 }
 

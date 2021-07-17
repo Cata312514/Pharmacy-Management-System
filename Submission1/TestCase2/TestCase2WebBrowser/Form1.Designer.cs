@@ -138,6 +138,7 @@ namespace TestCase2WebBrowser
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+<<<<<<< HEAD
             // webBrowser2
             // 
             this.webBrowser2.ContextMenuStrip = this.contextMenuStrip1;
@@ -204,6 +205,8 @@ namespace TestCase2WebBrowser
             this.panel1.Size = new System.Drawing.Size(1204, 69);
             this.panel1.TabIndex = 4;
             // 
+=======
+>>>>>>> parent of 6203147 (added search functionality to web browser -User1:Cata312514)
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);

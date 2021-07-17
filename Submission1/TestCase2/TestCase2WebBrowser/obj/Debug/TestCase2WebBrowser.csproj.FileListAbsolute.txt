@@ -1,0 +1,10 @@
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase2\TestCase2WebBrowser\bin\Debug\TestCase2WebBrowser.exe.config
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase2\TestCase2WebBrowser\bin\Debug\TestCase2WebBrowser.exe
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase2\TestCase2WebBrowser\bin\Debug\TestCase2WebBrowser.pdb
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase2\TestCase2WebBrowser\obj\Debug\TestCase2WebBrowser.csproj.AssemblyReference.cache
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase2\TestCase2WebBrowser\obj\Debug\TestCase2WebBrowser.frmMain.resources
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase2\TestCase2WebBrowser\obj\Debug\TestCase2WebBrowser.Properties.Resources.resources
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase2\TestCase2WebBrowser\obj\Debug\TestCase2WebBrowser.csproj.GenerateResource.cache
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase2\TestCase2WebBrowser\obj\Debug\TestCase2WebBrowser.csproj.CoreCompileInputs.cache
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase2\TestCase2WebBrowser\obj\Debug\TestCase2WebBrowser.exe
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission1\TestCase2\TestCase2WebBrowser\obj\Debug\TestCase2WebBrowser.pdb

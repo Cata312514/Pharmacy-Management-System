@@ -150,11 +150,11 @@ namespace TestCase2WebBrowser
             // 
             this.webBrowser3.ContextMenuStrip = this.contextMenuStrip1;
             this.webBrowser3.IsWebBrowserContextMenuEnabled = false;
-            this.webBrowser3.Location = new System.Drawing.Point(12, 88);
+            this.webBrowser3.Location = new System.Drawing.Point(0, 112);
             this.webBrowser3.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser3.Name = "webBrowser3";
             this.webBrowser3.ScriptErrorsSuppressed = true;
-            this.webBrowser3.Size = new System.Drawing.Size(1244, 663);
+            this.webBrowser3.Size = new System.Drawing.Size(1244, 638);
             this.webBrowser3.TabIndex = 3;
             this.webBrowser3.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser3_DocumentCompleted);
             // 
@@ -165,9 +165,9 @@ namespace TestCase2WebBrowser
             // 
             // btnRefresh
             // 
-            this.btnRefresh.Location = new System.Drawing.Point(182, 18);
+            this.btnRefresh.Location = new System.Drawing.Point(51, 18);
             this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.Size = new System.Drawing.Size(78, 26);
+            this.btnRefresh.Size = new System.Drawing.Size(78, 34);
             this.btnRefresh.TabIndex = 5;
             this.btnRefresh.Text = "Refresh";
             this.btnRefresh.UseVisualStyleBackColor = true;
@@ -176,7 +176,7 @@ namespace TestCase2WebBrowser
             // btnSearch
             // 
             this.btnSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSearch.Location = new System.Drawing.Point(919, 18);
+            this.btnSearch.Location = new System.Drawing.Point(1474, 41);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(85, 26);
             this.btnSearch.TabIndex = 7;
@@ -186,22 +186,19 @@ namespace TestCase2WebBrowser
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(266, 18);
+            this.textBox1.Location = new System.Drawing.Point(135, 22);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(647, 26);
+            this.textBox1.Size = new System.Drawing.Size(683, 26);
             this.textBox1.TabIndex = 8;
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.btnSearch);
             this.panel1.Controls.Add(this.btnRefresh);
-            this.panel1.Location = new System.Drawing.Point(12, 88);
+            this.panel1.Location = new System.Drawing.Point(12, 37);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1214, 57);
+            this.panel1.Size = new System.Drawing.Size(1204, 69);
             this.panel1.TabIndex = 4;
             // 
             // frmMain

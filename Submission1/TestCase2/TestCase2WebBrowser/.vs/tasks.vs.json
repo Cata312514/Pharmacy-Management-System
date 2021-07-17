@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Form1",
+      "appliesTo": "Form1.cs",
+      "type": "launch"
+    }
+  ]
+}

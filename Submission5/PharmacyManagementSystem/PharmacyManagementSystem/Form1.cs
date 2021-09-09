@@ -61,7 +61,7 @@ namespace PharmacyManagementSystem
                     }
                     else if(role=="Pharmacist")
                     {
-                        Pharmacist pharm = new Pharmacist();
+                        Pharmacist2 pharm = new Pharmacist2();
                         pharm.Show();
                         this.Hide();
                     }

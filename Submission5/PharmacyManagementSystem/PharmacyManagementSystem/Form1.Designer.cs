@@ -54,16 +54,18 @@ namespace PharmacyManagementSystem
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(657, 1155);
+            this.panel1.Size = new System.Drawing.Size(438, 815);
             this.panel1.TabIndex = 0;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(170, 555);
+            this.pictureBox1.Location = new System.Drawing.Point(113, 361);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(338, 301);
+            this.pictureBox1.Size = new System.Drawing.Size(225, 196);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -73,9 +75,10 @@ namespace PharmacyManagementSystem
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(143, 142);
+            this.label1.Location = new System.Drawing.Point(95, 92);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(455, 246);
+            this.label1.Size = new System.Drawing.Size(306, 165);
             this.label1.TabIndex = 0;
             this.label1.Text = "Pharmacy\r\nManagement\r\nSystem\r\n";
             // 
@@ -90,19 +93,21 @@ namespace PharmacyManagementSystem
             this.btnExit.HoverState.Parent = this.btnExit;
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnExit.Location = new System.Drawing.Point(1920, 12);
+            this.btnExit.Location = new System.Drawing.Point(1342, 11);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.ShadowDecoration.Parent = this.btnExit;
-            this.btnExit.Size = new System.Drawing.Size(54, 46);
+            this.btnExit.Size = new System.Drawing.Size(36, 30);
             this.btnExit.TabIndex = 1;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(1264, 94);
+            this.pictureBox2.Location = new System.Drawing.Point(817, 92);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(359, 263);
+            this.pictureBox2.Size = new System.Drawing.Size(298, 261);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -111,9 +116,10 @@ namespace PharmacyManagementSystem
             // 
             this.labSignIn.AutoSize = true;
             this.labSignIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labSignIn.Location = new System.Drawing.Point(1369, 382);
+            this.labSignIn.Location = new System.Drawing.Point(913, 355);
+            this.labSignIn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labSignIn.Name = "labSignIn";
-            this.labSignIn.Size = new System.Drawing.Size(150, 46);
+            this.labSignIn.Size = new System.Drawing.Size(105, 31);
             this.labSignIn.TabIndex = 3;
             this.labSignIn.Text = "Sign In";
             // 
@@ -121,9 +127,10 @@ namespace PharmacyManagementSystem
             // 
             this.labUserName.AutoSize = true;
             this.labUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labUserName.Location = new System.Drawing.Point(1095, 574);
+            this.labUserName.Location = new System.Drawing.Point(730, 480);
+            this.labUserName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labUserName.Name = "labUserName";
-            this.labUserName.Size = new System.Drawing.Size(124, 29);
+            this.labUserName.Size = new System.Drawing.Size(83, 20);
             this.labUserName.TabIndex = 4;
             this.labUserName.Text = "Username";
             // 
@@ -131,9 +138,10 @@ namespace PharmacyManagementSystem
             // 
             this.LabPassword.AutoSize = true;
             this.LabPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabPassword.Location = new System.Drawing.Point(1099, 665);
+            this.LabPassword.Location = new System.Drawing.Point(733, 539);
+            this.LabPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LabPassword.Name = "LabPassword";
-            this.LabPassword.Size = new System.Drawing.Size(120, 29);
+            this.LabPassword.Size = new System.Drawing.Size(78, 20);
             this.LabPassword.TabIndex = 5;
             this.LabPassword.Text = "Password";
             // 
@@ -152,16 +160,15 @@ namespace PharmacyManagementSystem
             this.txtUsername.ForeColor = System.Drawing.Color.Black;
             this.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtUsername.HoverState.Parent = this.txtUsername;
-            this.txtUsername.Location = new System.Drawing.Point(1226, 555);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtUsername.Location = new System.Drawing.Point(817, 468);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.PasswordChar = '\0';
             this.txtUsername.PlaceholderText = "";
             this.txtUsername.SelectedText = "";
             this.txtUsername.ShadowDecoration.Parent = this.txtUsername;
-            this.txtUsername.Size = new System.Drawing.Size(420, 60);
+            this.txtUsername.Size = new System.Drawing.Size(280, 39);
             this.txtUsername.TabIndex = 6;
-            
             // 
             // txtPassword
             // 
@@ -178,14 +185,14 @@ namespace PharmacyManagementSystem
             this.txtPassword.ForeColor = System.Drawing.Color.Black;
             this.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPassword.HoverState.Parent = this.txtPassword;
-            this.txtPassword.Location = new System.Drawing.Point(1226, 651);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtPassword.Location = new System.Drawing.Point(817, 530);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.PlaceholderText = "";
             this.txtPassword.SelectedText = "";
             this.txtPassword.ShadowDecoration.Parent = this.txtPassword;
-            this.txtPassword.Size = new System.Drawing.Size(420, 56);
+            this.txtPassword.Size = new System.Drawing.Size(280, 36);
             this.txtPassword.TabIndex = 7;
             // 
             // btnSignIn
@@ -203,10 +210,11 @@ namespace PharmacyManagementSystem
             this.btnSignIn.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(225)))));
             this.btnSignIn.HoverState.Parent = this.btnSignIn;
             this.btnSignIn.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnSignIn.Location = new System.Drawing.Point(1250, 739);
+            this.btnSignIn.Location = new System.Drawing.Point(833, 587);
+            this.btnSignIn.Margin = new System.Windows.Forms.Padding(2);
             this.btnSignIn.Name = "btnSignIn";
             this.btnSignIn.ShadowDecoration.Parent = this.btnSignIn;
-            this.btnSignIn.Size = new System.Drawing.Size(147, 41);
+            this.btnSignIn.Size = new System.Drawing.Size(98, 27);
             this.btnSignIn.TabIndex = 8;
             this.btnSignIn.Text = "Sign In";
             this.btnSignIn.Click += new System.EventHandler(this.btnSignIn_Click);
@@ -226,21 +234,23 @@ namespace PharmacyManagementSystem
             this.btnReset.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(225)))));
             this.btnReset.HoverState.Parent = this.btnReset;
             this.btnReset.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnReset.Location = new System.Drawing.Point(1470, 739);
+            this.btnReset.Location = new System.Drawing.Point(980, 587);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(2);
             this.btnReset.Name = "btnReset";
             this.btnReset.ShadowDecoration.Parent = this.btnReset;
-            this.btnReset.Size = new System.Drawing.Size(139, 41);
+            this.btnReset.Size = new System.Drawing.Size(93, 27);
             this.btnReset.TabIndex = 9;
             this.btnReset.Text = "Reset";
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1989, 1019);
+            this.ClientSize = new System.Drawing.Size(1389, 814);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnSignIn);
             this.Controls.Add(this.txtPassword);
@@ -253,6 +263,8 @@ namespace PharmacyManagementSystem
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.DarkRed;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.MinimumSize = new System.Drawing.Size(1326, 662);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";

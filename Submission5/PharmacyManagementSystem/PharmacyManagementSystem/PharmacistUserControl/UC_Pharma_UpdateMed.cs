@@ -20,13 +20,13 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             InitializeComponent();
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
+        private void btnSearch_Click_1(object sender, EventArgs e)
         {
-            if(txtMedNDC.Text!="")
+            if (txtMedNDC.Text != "")
             {
                 query = "select * from MedicineList where medNDC = '" + txtMedNDC.Text + "'";
                 DataSet ds = fn.getData(query);
-                if(ds.Tables[0].Rows.Count != 0)
+                if (ds.Tables[0].Rows.Count != 0)
                 {
                     txtMedName.Text = ds.Tables[0].Rows[0][2].ToString();
                     txtMedNDC.Text = ds.Tables[0].Rows[0][1].ToString();
@@ -47,6 +47,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
                 clearAll();
             }
         }
+        
 
         private void clearAll()
         {

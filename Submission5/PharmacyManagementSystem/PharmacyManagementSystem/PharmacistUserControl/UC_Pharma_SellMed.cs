@@ -165,6 +165,10 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             }
         }
 
+        private void pboxSync_Click(object sender, EventArgs e)
+        {
+
+        }
 
         private void btnPurPrnt_Click(object sender, EventArgs e)
         {

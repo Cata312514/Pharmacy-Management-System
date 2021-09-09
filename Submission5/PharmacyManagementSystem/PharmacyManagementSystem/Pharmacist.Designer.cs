@@ -42,18 +42,18 @@ namespace PharmacyManagementSystem
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.uC_Pharma_ValMed2 = new PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_ValMed();
+            this.uC_Pharma_AddMed1 = new PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_AddMed();
+            this.uC_Pharma_DashBrd1 = new PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_DashBrd();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse3 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse4 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse5 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2Elipse6 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.uC_Pharma_SellMed1 = new PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_SellMed();
-            this.uC_Pharma_ValMed2 = new PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_ValMed();
             this.uC_Pharma_UpdateMed1 = new PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_UpdateMed();
+            this.uC_Pharma_SellMed1 = new PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_SellMed();
             this.uC_Pharma_ViewMed1 = new PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_ViewMed();
-            this.uC_Pharma_AddMed1 = new PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_AddMed();
-            this.uC_Pharma_DashBrd1 = new PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_DashBrd();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -72,9 +72,9 @@ namespace PharmacyManagementSystem
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(884, 3343);
+            this.panel1.Size = new System.Drawing.Size(268, 1811);
             this.panel1.TabIndex = 0;
             // 
             // btnLogout
@@ -95,11 +95,11 @@ namespace PharmacyManagementSystem
             this.btnLogout.HoverState.Parent = this.btnLogout;
             this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
             this.btnLogout.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnLogout.Location = new System.Drawing.Point(48, 964);
-            this.btnLogout.Margin = new System.Windows.Forms.Padding(4);
+            this.btnLogout.Location = new System.Drawing.Point(26, 522);
+            this.btnLogout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogout.Name = "btnLogout";
             this.btnLogout.ShadowDecoration.Parent = this.btnLogout;
-            this.btnLogout.Size = new System.Drawing.Size(457, 65);
+            this.btnLogout.Size = new System.Drawing.Size(249, 35);
             this.btnLogout.TabIndex = 8;
             this.btnLogout.Text = "Logout";
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
@@ -122,11 +122,11 @@ namespace PharmacyManagementSystem
             this.btnSellMed.HoverState.Parent = this.btnSellMed;
             this.btnSellMed.Image = ((System.Drawing.Image)(resources.GetObject("btnSellMed.Image")));
             this.btnSellMed.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnSellMed.Location = new System.Drawing.Point(44, 881);
-            this.btnSellMed.Margin = new System.Windows.Forms.Padding(4);
+            this.btnSellMed.Location = new System.Drawing.Point(24, 477);
+            this.btnSellMed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSellMed.Name = "btnSellMed";
             this.btnSellMed.ShadowDecoration.Parent = this.btnSellMed;
-            this.btnSellMed.Size = new System.Drawing.Size(457, 65);
+            this.btnSellMed.Size = new System.Drawing.Size(249, 35);
             this.btnSellMed.TabIndex = 7;
             this.btnSellMed.Text = "Sell Medicine";
             this.btnSellMed.Click += new System.EventHandler(this.btnSellMed_Click);
@@ -149,11 +149,11 @@ namespace PharmacyManagementSystem
             this.btnMedVal.HoverState.Parent = this.btnMedVal;
             this.btnMedVal.Image = ((System.Drawing.Image)(resources.GetObject("btnMedVal.Image")));
             this.btnMedVal.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnMedVal.Location = new System.Drawing.Point(48, 793);
-            this.btnMedVal.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMedVal.Location = new System.Drawing.Point(26, 430);
+            this.btnMedVal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnMedVal.Name = "btnMedVal";
             this.btnMedVal.ShadowDecoration.Parent = this.btnMedVal;
-            this.btnMedVal.Size = new System.Drawing.Size(457, 65);
+            this.btnMedVal.Size = new System.Drawing.Size(249, 35);
             this.btnMedVal.TabIndex = 6;
             this.btnMedVal.Text = "Medicine Validation";
             this.btnMedVal.Click += new System.EventHandler(this.btnMedVal_Click);
@@ -176,11 +176,11 @@ namespace PharmacyManagementSystem
             this.btnModMed.HoverState.Parent = this.btnModMed;
             this.btnModMed.Image = ((System.Drawing.Image)(resources.GetObject("btnModMed.Image")));
             this.btnModMed.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnModMed.Location = new System.Drawing.Point(48, 700);
-            this.btnModMed.Margin = new System.Windows.Forms.Padding(4);
+            this.btnModMed.Location = new System.Drawing.Point(26, 379);
+            this.btnModMed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnModMed.Name = "btnModMed";
             this.btnModMed.ShadowDecoration.Parent = this.btnModMed;
-            this.btnModMed.Size = new System.Drawing.Size(457, 65);
+            this.btnModMed.Size = new System.Drawing.Size(249, 35);
             this.btnModMed.TabIndex = 5;
             this.btnModMed.Text = "Modify Medicine";
             this.btnModMed.Click += new System.EventHandler(this.btnModMed_Click);
@@ -203,11 +203,11 @@ namespace PharmacyManagementSystem
             this.btnViewMed.HoverState.Parent = this.btnViewMed;
             this.btnViewMed.Image = ((System.Drawing.Image)(resources.GetObject("btnViewMed.Image")));
             this.btnViewMed.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnViewMed.Location = new System.Drawing.Point(52, 614);
-            this.btnViewMed.Margin = new System.Windows.Forms.Padding(4);
+            this.btnViewMed.Location = new System.Drawing.Point(28, 333);
+            this.btnViewMed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnViewMed.Name = "btnViewMed";
             this.btnViewMed.ShadowDecoration.Parent = this.btnViewMed;
-            this.btnViewMed.Size = new System.Drawing.Size(457, 65);
+            this.btnViewMed.Size = new System.Drawing.Size(249, 35);
             this.btnViewMed.TabIndex = 4;
             this.btnViewMed.Text = "View Medicine";
             this.btnViewMed.Click += new System.EventHandler(this.btnViewMed_Click);
@@ -230,11 +230,11 @@ namespace PharmacyManagementSystem
             this.btnAddMed.HoverState.Parent = this.btnAddMed;
             this.btnAddMed.Image = ((System.Drawing.Image)(resources.GetObject("btnAddMed.Image")));
             this.btnAddMed.ImageSize = new System.Drawing.Size(25, 25);
-            this.btnAddMed.Location = new System.Drawing.Point(48, 525);
-            this.btnAddMed.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAddMed.Location = new System.Drawing.Point(26, 284);
+            this.btnAddMed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAddMed.Name = "btnAddMed";
             this.btnAddMed.ShadowDecoration.Parent = this.btnAddMed;
-            this.btnAddMed.Size = new System.Drawing.Size(457, 65);
+            this.btnAddMed.Size = new System.Drawing.Size(249, 35);
             this.btnAddMed.TabIndex = 3;
             this.btnAddMed.Text = "Add Medicine";
             this.btnAddMed.Click += new System.EventHandler(this.btnAddMed_Click);
@@ -257,11 +257,11 @@ namespace PharmacyManagementSystem
             this.btnDashbrd.HoverState.Parent = this.btnDashbrd;
             this.btnDashbrd.Image = ((System.Drawing.Image)(resources.GetObject("btnDashbrd.Image")));
             this.btnDashbrd.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnDashbrd.Location = new System.Drawing.Point(44, 444);
-            this.btnDashbrd.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDashbrd.Location = new System.Drawing.Point(24, 241);
+            this.btnDashbrd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDashbrd.Name = "btnDashbrd";
             this.btnDashbrd.ShadowDecoration.Parent = this.btnDashbrd;
-            this.btnDashbrd.Size = new System.Drawing.Size(457, 65);
+            this.btnDashbrd.Size = new System.Drawing.Size(249, 35);
             this.btnDashbrd.TabIndex = 2;
             this.btnDashbrd.Text = "Dashboard";
             this.btnDashbrd.Click += new System.EventHandler(this.btnDashbrd_Click);
@@ -271,37 +271,63 @@ namespace PharmacyManagementSystem
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(128, 354);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(70, 192);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(240, 48);
+            this.label1.Size = new System.Drawing.Size(142, 29);
             this.label1.TabIndex = 1;
             this.label1.Text = "Pharmacist";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(137, 89);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(75, 48);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(221, 262);
+            this.pictureBox1.Size = new System.Drawing.Size(121, 142);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.uC_Pharma_SellMed1);
-            this.panel2.Controls.Add(this.uC_Pharma_ValMed2);
-            this.panel2.Controls.Add(this.uC_Pharma_UpdateMed1);
             this.panel2.Controls.Add(this.uC_Pharma_ViewMed1);
+            this.panel2.Controls.Add(this.uC_Pharma_SellMed1);
+            this.panel2.Controls.Add(this.uC_Pharma_UpdateMed1);
+            this.panel2.Controls.Add(this.uC_Pharma_ValMed2);
             this.panel2.Controls.Add(this.uC_Pharma_AddMed1);
-            this.panel2.Controls.Add(this.uC_Pharma_DashBrd1);
-            this.panel2.Location = new System.Drawing.Point(499, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Location = new System.Drawing.Point(267, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1588, 1910);
+            this.panel2.Size = new System.Drawing.Size(876, 947);
             this.panel2.TabIndex = 1;
+            // 
+            // uC_Pharma_ValMed2
+            // 
+            this.uC_Pharma_ValMed2.BackColor = System.Drawing.Color.White;
+            this.uC_Pharma_ValMed2.Location = new System.Drawing.Point(0, 0);
+            this.uC_Pharma_ValMed2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.uC_Pharma_ValMed2.Name = "uC_Pharma_ValMed2";
+            this.uC_Pharma_ValMed2.Size = new System.Drawing.Size(875, 600);
+            this.uC_Pharma_ValMed2.TabIndex = 5;
+            // 
+            // uC_Pharma_AddMed1
+            // 
+            this.uC_Pharma_AddMed1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.uC_Pharma_AddMed1.BackColor = System.Drawing.Color.White;
+            this.uC_Pharma_AddMed1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Pharma_AddMed1.Name = "uC_Pharma_AddMed1";
+            this.uC_Pharma_AddMed1.Size = new System.Drawing.Size(878, 598);
+            this.uC_Pharma_AddMed1.TabIndex = 0;
+            // 
+            // uC_Pharma_DashBrd1
+            // 
+            this.uC_Pharma_DashBrd1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.uC_Pharma_DashBrd1.BackColor = System.Drawing.Color.White;
+            this.uC_Pharma_DashBrd1.Location = new System.Drawing.Point(267, 0);
+            this.uC_Pharma_DashBrd1.Name = "uC_Pharma_DashBrd1";
+            this.uC_Pharma_DashBrd1.Size = new System.Drawing.Size(878, 761);
+            this.uC_Pharma_DashBrd1.TabIndex = 0;
             // 
             // guna2Elipse1
             // 
@@ -327,69 +353,44 @@ namespace PharmacyManagementSystem
             // 
             this.guna2Elipse6.TargetControl = this.panel2;
             // 
-            // uC_Pharma_SellMed1
-            // 
-            this.uC_Pharma_SellMed1.BackColor = System.Drawing.Color.White;
-            this.uC_Pharma_SellMed1.Location = new System.Drawing.Point(3, 0);
-            this.uC_Pharma_SellMed1.Name = "uC_Pharma_SellMed1";
-            this.uC_Pharma_SellMed1.Size = new System.Drawing.Size(1588, 1391);
-            this.uC_Pharma_SellMed1.TabIndex = 6;
-            
-            // 
-            // uC_Pharma_ValMed2
-            // 
-            this.uC_Pharma_ValMed2.BackColor = System.Drawing.Color.White;
-            this.uC_Pharma_ValMed2.Location = new System.Drawing.Point(5, 0);
-            this.uC_Pharma_ValMed2.Name = "uC_Pharma_ValMed2";
-            this.uC_Pharma_ValMed2.Size = new System.Drawing.Size(1588, 1910);
-            this.uC_Pharma_ValMed2.TabIndex = 5;
-            // 
             // uC_Pharma_UpdateMed1
             // 
             this.uC_Pharma_UpdateMed1.BackColor = System.Drawing.Color.White;
-            this.uC_Pharma_UpdateMed1.Location = new System.Drawing.Point(3, 0);
+            this.uC_Pharma_UpdateMed1.Location = new System.Drawing.Point(0, 0);
+            this.uC_Pharma_UpdateMed1.Margin = new System.Windows.Forms.Padding(2);
             this.uC_Pharma_UpdateMed1.Name = "uC_Pharma_UpdateMed1";
-            this.uC_Pharma_UpdateMed1.Size = new System.Drawing.Size(1588, 1910);
-            this.uC_Pharma_UpdateMed1.TabIndex = 3;
+            this.uC_Pharma_UpdateMed1.Size = new System.Drawing.Size(887, 618);
+            this.uC_Pharma_UpdateMed1.TabIndex = 6;
+            // 
+            // uC_Pharma_SellMed1
+            // 
+            this.uC_Pharma_SellMed1.BackColor = System.Drawing.Color.White;
+            this.uC_Pharma_SellMed1.Location = new System.Drawing.Point(0, -9);
+            this.uC_Pharma_SellMed1.Margin = new System.Windows.Forms.Padding(2);
+            this.uC_Pharma_SellMed1.Name = "uC_Pharma_SellMed1";
+            this.uC_Pharma_SellMed1.Size = new System.Drawing.Size(878, 642);
+            this.uC_Pharma_SellMed1.TabIndex = 7;
             // 
             // uC_Pharma_ViewMed1
             // 
             this.uC_Pharma_ViewMed1.BackColor = System.Drawing.Color.White;
-            this.uC_Pharma_ViewMed1.Location = new System.Drawing.Point(3, 0);
+            this.uC_Pharma_ViewMed1.Location = new System.Drawing.Point(0, -9);
+            this.uC_Pharma_ViewMed1.Margin = new System.Windows.Forms.Padding(2);
             this.uC_Pharma_ViewMed1.Name = "uC_Pharma_ViewMed1";
-            this.uC_Pharma_ViewMed1.Size = new System.Drawing.Size(1588, 1910);
-            this.uC_Pharma_ViewMed1.TabIndex = 0;
-            // 
-            // uC_Pharma_AddMed1
-            // 
-            this.uC_Pharma_AddMed1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uC_Pharma_AddMed1.BackColor = System.Drawing.Color.White;
-            this.uC_Pharma_AddMed1.Location = new System.Drawing.Point(3, 0);
-            this.uC_Pharma_AddMed1.Margin = new System.Windows.Forms.Padding(5);
-            this.uC_Pharma_AddMed1.Name = "uC_Pharma_AddMed1";
-            this.uC_Pharma_AddMed1.Size = new System.Drawing.Size(1588, 1910);
-            this.uC_Pharma_AddMed1.TabIndex = 0;
-            // 
-            // uC_Pharma_DashBrd1
-            // 
-            this.uC_Pharma_DashBrd1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uC_Pharma_DashBrd1.BackColor = System.Drawing.Color.White;
-            this.uC_Pharma_DashBrd1.Location = new System.Drawing.Point(3, 0);
-            this.uC_Pharma_DashBrd1.Margin = new System.Windows.Forms.Padding(5);
-            this.uC_Pharma_DashBrd1.Name = "uC_Pharma_DashBrd1";
-            this.uC_Pharma_DashBrd1.Size = new System.Drawing.Size(1588, 1910);
-            this.uC_Pharma_DashBrd1.TabIndex = 0;
+            this.uC_Pharma_ViewMed1.Size = new System.Drawing.Size(878, 661);
+            this.uC_Pharma_ViewMed1.TabIndex = 8;
             // 
             // Pharmacist
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(2100, 1910);
+            this.ClientSize = new System.Drawing.Size(1145, 629);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.uC_Pharma_DashBrd1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Pharmacist";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Pharmacist";
@@ -420,12 +421,12 @@ namespace PharmacyManagementSystem
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private PharmacistUserControl.UC_Pharma_AddMed uC_Pharma_AddMed1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse3;
-        private PharmacistUserControl.UC_Pharma_ViewMed uC_Pharma_ViewMed1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse4;
-        private PharmacistUserControl.UC_Pharma_UpdateMed uC_Pharma_UpdateMed1;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse5;
         private PharmacistUserControl.UC_Pharma_ValMed uC_Pharma_ValMed2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse6;
+        private PharmacistUserControl.UC_Pharma_UpdateMed uC_Pharma_UpdateMed1;
         private PharmacistUserControl.UC_Pharma_SellMed uC_Pharma_SellMed1;
+        private PharmacistUserControl.UC_Pharma_ViewMed uC_Pharma_ViewMed1;
     }
 }

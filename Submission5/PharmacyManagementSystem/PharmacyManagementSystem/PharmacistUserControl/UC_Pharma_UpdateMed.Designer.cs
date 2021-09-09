@@ -83,6 +83,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtAvailQty.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAvailQty.HoverState.Parent = this.txtAvailQty;
             this.txtAvailQty.Location = new System.Drawing.Point(487, 313);
+            this.txtAvailQty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAvailQty.Name = "txtAvailQty";
             this.txtAvailQty.PasswordChar = '\0';
             this.txtAvailQty.PlaceholderText = "";
@@ -118,6 +119,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtMedLOT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMedLOT.HoverState.Parent = this.txtMedLOT;
             this.txtMedLOT.Location = new System.Drawing.Point(81, 438);
+            this.txtMedLOT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMedLOT.Name = "txtMedLOT";
             this.txtMedLOT.PasswordChar = '\0';
             this.txtMedLOT.PlaceholderText = "";
@@ -142,6 +144,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtMedName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMedName.HoverState.Parent = this.txtMedName;
             this.txtMedName.Location = new System.Drawing.Point(78, 233);
+            this.txtMedName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMedName.Name = "txtMedName";
             this.txtMedName.PasswordChar = '\0';
             this.txtMedName.PlaceholderText = "";
@@ -188,6 +191,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtMedNDC.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMedNDC.HoverState.Parent = this.txtMedNDC;
             this.txtMedNDC.Location = new System.Drawing.Point(78, 131);
+            this.txtMedNDC.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMedNDC.Name = "txtMedNDC";
             this.txtMedNDC.PasswordChar = '\0';
             this.txtMedNDC.PlaceholderText = "";
@@ -249,7 +253,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtExpr.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.txtExpr.HoverState.Parent = this.txtExpr;
             this.txtExpr.Location = new System.Drawing.Point(487, 220);
-            this.txtExpr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtExpr.Margin = new System.Windows.Forms.Padding(2);
             this.txtExpr.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.txtExpr.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.txtExpr.Name = "txtExpr";
@@ -285,6 +289,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtPriceUnit.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPriceUnit.HoverState.Parent = this.txtPriceUnit;
             this.txtPriceUnit.Location = new System.Drawing.Point(487, 441);
+            this.txtPriceUnit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtPriceUnit.Name = "txtPriceUnit";
             this.txtPriceUnit.PasswordChar = '\0';
             this.txtPriceUnit.PlaceholderText = "";
@@ -311,6 +316,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtAddQty.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtAddQty.HoverState.Parent = this.txtAddQty;
             this.txtAddQty.Location = new System.Drawing.Point(678, 359);
+            this.txtAddQty.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAddQty.Name = "txtAddQty";
             this.txtAddQty.PasswordChar = '\0';
             this.txtAddQty.PlaceholderText = "";
@@ -342,7 +348,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.btnReset.HoverState.Parent = this.btnReset;
             this.btnReset.Image = ((System.Drawing.Image)(resources.GetObject("btnReset.Image")));
             this.btnReset.Location = new System.Drawing.Point(638, 516);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(2);
             this.btnReset.Name = "btnReset";
             this.btnReset.ShadowDecoration.Parent = this.btnReset;
             this.btnReset.Size = new System.Drawing.Size(120, 29);
@@ -371,7 +377,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.btnUpdate.HoverState.Parent = this.btnUpdate;
             this.btnUpdate.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdate.Image")));
             this.btnUpdate.Location = new System.Drawing.Point(487, 516);
-            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.ShadowDecoration.Parent = this.btnUpdate;
             this.btnUpdate.Size = new System.Drawing.Size(120, 29);
@@ -399,6 +405,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtMedDose.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMedDose.HoverState.Parent = this.txtMedDose;
             this.txtMedDose.Location = new System.Drawing.Point(78, 335);
+            this.txtMedDose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMedDose.Name = "txtMedDose";
             this.txtMedDose.PasswordChar = '\0';
             this.txtMedDose.PlaceholderText = "";
@@ -427,7 +434,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtMfgr.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.txtMfgr.HoverState.Parent = this.txtMfgr;
             this.txtMfgr.Location = new System.Drawing.Point(485, 131);
-            this.txtMfgr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMfgr.Margin = new System.Windows.Forms.Padding(2);
             this.txtMfgr.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.txtMfgr.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.txtMfgr.Name = "txtMfgr";
@@ -438,9 +445,6 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             // btnSearch
             // 
-            this.btnSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSearch.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(225)))));
             this.btnSearch.BorderRadius = 12;
             this.btnSearch.BorderThickness = 1;
@@ -452,7 +456,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.btnSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.btnSearch.DisabledState.Parent = this.btnSearch;
             this.btnSearch.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(225)))));
-            this.btnSearch.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold);
+            this.btnSearch.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSearch.ForeColor = System.Drawing.Color.White;
             this.btnSearch.HoverState.BorderColor = System.Drawing.Color.Black;
             this.btnSearch.HoverState.FillColor = System.Drawing.Color.White;
@@ -460,13 +464,13 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.btnSearch.HoverState.Parent = this.btnSearch;
             this.btnSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSearch.Image")));
             this.btnSearch.ImageSize = new System.Drawing.Size(15, 15);
-            this.btnSearch.Location = new System.Drawing.Point(260, 164);
-            this.btnSearch.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSearch.Location = new System.Drawing.Point(256, 167);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.ShadowDecoration.Parent = this.btnSearch;
-            this.btnSearch.Size = new System.Drawing.Size(83, 28);
-            this.btnSearch.TabIndex = 44;
+            this.btnSearch.Size = new System.Drawing.Size(95, 26);
+            this.btnSearch.TabIndex = 41;
             this.btnSearch.Text = "Search";
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click_1);
             // 
             // UC_Pharma_UpdateMed
             // 
@@ -495,9 +499,9 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.Controls.Add(this.txtMedNDC);
             this.Controls.Add(this.lblMedNDC);
             this.Controls.Add(this.lblUpdateMed);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UC_Pharma_UpdateMed";
-            this.Size = new System.Drawing.Size(887, 618);
+            this.Size = new System.Drawing.Size(887, 591);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -50,7 +50,6 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.btnsync = new Guna.UI2.WinForms.Guna2Button();
             this.pboxSync = new System.Windows.Forms.PictureBox();
             this.lblMedName = new System.Windows.Forms.Label();
-            this.txtSearchMed = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2DataGridView3 = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -58,6 +57,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.guna2DataGridView5 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.btnDelete = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.txtSearchMed = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pboxSync)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
@@ -93,9 +93,8 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.btnsync.HoverState.FillColor = System.Drawing.Color.White;
             this.btnsync.HoverState.Parent = this.btnsync;
             this.btnsync.Image = ((System.Drawing.Image)(resources.GetObject("btnsync.Image")));
-            this.btnsync.ImageSize = new System.Drawing.Size(30, 30);
             this.btnsync.Location = new System.Drawing.Point(294, 59);
-            this.btnsync.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnsync.Margin = new System.Windows.Forms.Padding(2);
             this.btnsync.Name = "btnsync";
             this.btnsync.PressedColor = System.Drawing.Color.White;
             this.btnsync.ShadowDecoration.Parent = this.btnsync;
@@ -106,10 +105,10 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // pboxSync
             // 
             this.pboxSync.Image = ((System.Drawing.Image)(resources.GetObject("pboxSync.Image")));
-            this.pboxSync.Location = new System.Drawing.Point(279, 50);
-            this.pboxSync.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pboxSync.Location = new System.Drawing.Point(277, 49);
+            this.pboxSync.Margin = new System.Windows.Forms.Padding(2);
             this.pboxSync.Name = "pboxSync";
-            this.pboxSync.Size = new System.Drawing.Size(50, 43);
+            this.pboxSync.Size = new System.Drawing.Size(50, 45);
             this.pboxSync.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pboxSync.TabIndex = 10;
             this.pboxSync.TabStop = false;
@@ -124,35 +123,6 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.lblMedName.Size = new System.Drawing.Size(118, 20);
             this.lblMedName.TabIndex = 12;
             this.lblMedName.Text = "Medicine Name";
-            // 
-            // txtSearchMed
-            // 
-            this.txtSearchMed.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSearchMed.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtSearchMed.DefaultText = "";
-            this.txtSearchMed.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtSearchMed.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtSearchMed.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchMed.DisabledState.Parent = this.txtSearchMed;
-            this.txtSearchMed.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtSearchMed.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchMed.FocusedState.Parent = this.txtSearchMed;
-            this.txtSearchMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSearchMed.ForeColor = System.Drawing.Color.Black;
-            this.txtSearchMed.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtSearchMed.HoverState.Parent = this.txtSearchMed;
-            this.txtSearchMed.Location = new System.Drawing.Point(67, 138);
-            this.txtSearchMed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtSearchMed.Name = "txtSearchMed";
-            this.txtSearchMed.PasswordChar = '\0';
-            this.txtSearchMed.PlaceholderText = "Search";
-            this.txtSearchMed.SelectedText = "";
-            this.txtSearchMed.ShadowDecoration.Parent = this.txtSearchMed;
-            this.txtSearchMed.Size = new System.Drawing.Size(261, 26);
-            this.txtSearchMed.TabIndex = 0;
-            this.txtSearchMed.TextChanged += new System.EventHandler(this.txtSearchMed_TextChanged);
             // 
             // guna2DataGridView1
             // 
@@ -183,7 +153,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView1.Location = new System.Drawing.Point(316, 270);
-            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidth = 72;
@@ -242,7 +212,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.guna2DataGridView2.EnableHeadersVisualStyles = false;
             this.guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView2.Location = new System.Drawing.Point(279, 308);
-            this.guna2DataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2DataGridView2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2DataGridView2.Name = "guna2DataGridView2";
             this.guna2DataGridView2.RowHeadersVisible = false;
             this.guna2DataGridView2.RowHeadersWidth = 72;
@@ -301,7 +271,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.guna2DataGridView3.EnableHeadersVisualStyles = false;
             this.guna2DataGridView3.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView3.Location = new System.Drawing.Point(273, 311);
-            this.guna2DataGridView3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2DataGridView3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2DataGridView3.Name = "guna2DataGridView3";
             this.guna2DataGridView3.RowHeadersVisible = false;
             this.guna2DataGridView3.RowHeadersWidth = 72;
@@ -360,7 +330,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.guna2DataGridView4.EnableHeadersVisualStyles = false;
             this.guna2DataGridView4.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView4.Location = new System.Drawing.Point(67, 219);
-            this.guna2DataGridView4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2DataGridView4.Margin = new System.Windows.Forms.Padding(2);
             this.guna2DataGridView4.Name = "guna2DataGridView4";
             this.guna2DataGridView4.RowHeadersVisible = false;
             this.guna2DataGridView4.RowHeadersWidth = 72;
@@ -419,7 +389,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.guna2DataGridView5.EnableHeadersVisualStyles = false;
             this.guna2DataGridView5.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridView5.Location = new System.Drawing.Point(67, 184);
-            this.guna2DataGridView5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2DataGridView5.Margin = new System.Windows.Forms.Padding(2);
             this.guna2DataGridView5.Name = "guna2DataGridView5";
             this.guna2DataGridView5.RowHeadersVisible = false;
             this.guna2DataGridView5.RowHeadersWidth = 72;
@@ -471,7 +441,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.btnDelete.HoverState.Parent = this.btnDelete;
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
             this.btnDelete.Location = new System.Drawing.Point(679, 511);
-            this.btnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.ShadowDecoration.Parent = this.btnDelete;
             this.btnDelete.Size = new System.Drawing.Size(98, 24);
@@ -483,23 +453,49 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             this.guna2Elipse1.TargetControl = this;
             // 
+            // txtSearchMed
+            // 
+            this.txtSearchMed.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtSearchMed.DefaultText = "";
+            this.txtSearchMed.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtSearchMed.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtSearchMed.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchMed.DisabledState.Parent = this.txtSearchMed;
+            this.txtSearchMed.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtSearchMed.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearchMed.FocusedState.Parent = this.txtSearchMed;
+            this.txtSearchMed.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchMed.ForeColor = System.Drawing.Color.Black;
+            this.txtSearchMed.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtSearchMed.HoverState.Parent = this.txtSearchMed;
+            this.txtSearchMed.Location = new System.Drawing.Point(68, 138);
+            this.txtSearchMed.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtSearchMed.Name = "txtSearchMed";
+            this.txtSearchMed.PasswordChar = '\0';
+            this.txtSearchMed.PlaceholderText = "Search";
+            this.txtSearchMed.SelectedText = "";
+            this.txtSearchMed.ShadowDecoration.Parent = this.txtSearchMed;
+            this.txtSearchMed.Size = new System.Drawing.Size(246, 26);
+            this.txtSearchMed.TabIndex = 19;
+            
+            // 
             // UC_Pharma_ViewMed
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.txtSearchMed);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.guna2DataGridView5);
             this.Controls.Add(this.guna2DataGridView4);
             this.Controls.Add(this.guna2DataGridView3);
             this.Controls.Add(this.guna2DataGridView2);
             this.Controls.Add(this.guna2DataGridView1);
-            this.Controls.Add(this.txtSearchMed);
             this.Controls.Add(this.lblMedName);
             this.Controls.Add(this.btnsync);
             this.Controls.Add(this.pboxSync);
             this.Controls.Add(this.lblViewMed);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "UC_Pharma_ViewMed";
             this.Size = new System.Drawing.Size(913, 661);
             this.Load += new System.EventHandler(this.UC_Pharma_ViewMed_Load);
@@ -520,7 +516,6 @@ namespace PharmacyManagementSystem.PharmacistUserControl
         private Guna.UI2.WinForms.Guna2Button btnsync;
         private System.Windows.Forms.PictureBox pboxSync;
         private System.Windows.Forms.Label lblMedName;
-        private Guna.UI2.WinForms.Guna2TextBox txtSearchMed;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView3;
@@ -528,5 +523,6 @@ namespace PharmacyManagementSystem.PharmacistUserControl
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView5;
         private Guna.UI2.WinForms.Guna2Button btnDelete;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
+        private Guna.UI2.WinForms.Guna2TextBox txtSearchMed;
     }
 }

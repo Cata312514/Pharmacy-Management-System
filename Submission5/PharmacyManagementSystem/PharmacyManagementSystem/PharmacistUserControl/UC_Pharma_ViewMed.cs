@@ -29,7 +29,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
 
         private void txtSearchMed_TextChanged(object sender, EventArgs e)
         {
-            query = "select * from MedicineList where medName like '"+txtSearchMed.Text+"%'";
+            query = "select * from MedicineList where medName like '" + txtSearchMed.Text + "%'";
             setDataGridView(query);
         }
 
@@ -64,5 +64,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
         {
             UC_Pharma_ViewMed_Load(this, null);
         }
+
+        
     }
 }

@@ -98,12 +98,6 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="function.cs" />
-    <Compile Include="Pharmacist.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pharmacist.Designer.cs">
-      <DependentUpon>Pharmacist.cs</DependentUpon>
-    </Compile>
     <Compile Include="Pharmacist2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,9 +165,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pharmacist.resx">
-      <DependentUpon>Pharmacist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pharmacist2.resx">
       <DependentUpon>Pharmacist2.cs</DependentUpon>

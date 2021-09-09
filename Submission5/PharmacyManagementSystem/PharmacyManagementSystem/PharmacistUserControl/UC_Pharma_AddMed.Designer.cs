@@ -57,22 +57,21 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             this.lblAddMed.AutoSize = true;
             this.lblAddMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAddMed.Location = new System.Drawing.Point(56, 56);
-            this.lblAddMed.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAddMed.Location = new System.Drawing.Point(31, 30);
+            this.lblAddMed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAddMed.Name = "lblAddMed";
-            this.lblAddMed.Size = new System.Drawing.Size(351, 59);
+            this.lblAddMed.Size = new System.Drawing.Size(210, 36);
             this.lblAddMed.TabIndex = 2;
             this.lblAddMed.Text = "Add Medicine";
-            
             // 
             // lblMedNDC
             // 
             this.lblMedNDC.AutoSize = true;
             this.lblMedNDC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMedNDC.Location = new System.Drawing.Point(191, 220);
-            this.lblMedNDC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMedNDC.Location = new System.Drawing.Point(104, 119);
+            this.lblMedNDC.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMedNDC.Name = "lblMedNDC";
-            this.lblMedNDC.Size = new System.Drawing.Size(304, 32);
+            this.lblMedNDC.Size = new System.Drawing.Size(170, 20);
             this.lblMedNDC.TabIndex = 3;
             this.lblMedNDC.Text = "Medicine NDC Number";
             // 
@@ -91,14 +90,13 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtMedNDC.ForeColor = System.Drawing.Color.Black;
             this.txtMedNDC.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMedNDC.HoverState.Parent = this.txtMedNDC;
-            this.txtMedNDC.Location = new System.Drawing.Point(197, 262);
-            this.txtMedNDC.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtMedNDC.Location = new System.Drawing.Point(107, 142);
             this.txtMedNDC.Name = "txtMedNDC";
             this.txtMedNDC.PasswordChar = '\0';
             this.txtMedNDC.PlaceholderText = "";
             this.txtMedNDC.SelectedText = "";
             this.txtMedNDC.ShadowDecoration.Parent = this.txtMedNDC;
-            this.txtMedNDC.Size = new System.Drawing.Size(500, 53);
+            this.txtMedNDC.Size = new System.Drawing.Size(273, 29);
             this.txtMedNDC.TabIndex = 4;
             // 
             // txtQty
@@ -116,24 +114,23 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtQty.ForeColor = System.Drawing.Color.Black;
             this.txtQty.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtQty.HoverState.Parent = this.txtQty;
-            this.txtQty.Location = new System.Drawing.Point(947, 638);
-            this.txtQty.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtQty.Location = new System.Drawing.Point(517, 346);
             this.txtQty.Name = "txtQty";
             this.txtQty.PasswordChar = '\0';
             this.txtQty.PlaceholderText = "";
             this.txtQty.SelectedText = "";
             this.txtQty.ShadowDecoration.Parent = this.txtQty;
-            this.txtQty.Size = new System.Drawing.Size(497, 64);
+            this.txtQty.Size = new System.Drawing.Size(271, 35);
             this.txtQty.TabIndex = 6;
             // 
             // lblMedName
             // 
             this.lblMedName.AutoSize = true;
             this.lblMedName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMedName.Location = new System.Drawing.Point(191, 400);
-            this.lblMedName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMedName.Location = new System.Drawing.Point(104, 217);
+            this.lblMedName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMedName.Name = "lblMedName";
-            this.lblMedName.Size = new System.Drawing.Size(212, 32);
+            this.lblMedName.Size = new System.Drawing.Size(118, 20);
             this.lblMedName.TabIndex = 5;
             this.lblMedName.Text = "Medicine Name";
             // 
@@ -141,10 +138,10 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             this.lblMedLOT.AutoSize = true;
             this.lblMedLOT.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMedLOT.Location = new System.Drawing.Point(191, 800);
-            this.lblMedLOT.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMedLOT.Location = new System.Drawing.Point(104, 433);
+            this.lblMedLOT.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMedLOT.Name = "lblMedLOT";
-            this.lblMedLOT.Size = new System.Drawing.Size(299, 32);
+            this.lblMedLOT.Size = new System.Drawing.Size(166, 20);
             this.lblMedLOT.TabIndex = 7;
             this.lblMedLOT.Text = "Medicine LOT Number";
             // 
@@ -163,14 +160,13 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtMedName.ForeColor = System.Drawing.Color.Black;
             this.txtMedName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMedName.HoverState.Parent = this.txtMedName;
-            this.txtMedName.Location = new System.Drawing.Point(197, 439);
-            this.txtMedName.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtMedName.Location = new System.Drawing.Point(107, 238);
             this.txtMedName.Name = "txtMedName";
             this.txtMedName.PasswordChar = '\0';
             this.txtMedName.PlaceholderText = "";
             this.txtMedName.SelectedText = "";
             this.txtMedName.ShadowDecoration.Parent = this.txtMedName;
-            this.txtMedName.Size = new System.Drawing.Size(500, 64);
+            this.txtMedName.Size = new System.Drawing.Size(273, 35);
             this.txtMedName.TabIndex = 8;
             // 
             // txtPriceUnit
@@ -188,14 +184,13 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtPriceUnit.ForeColor = System.Drawing.Color.Black;
             this.txtPriceUnit.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtPriceUnit.HoverState.Parent = this.txtPriceUnit;
-            this.txtPriceUnit.Location = new System.Drawing.Point(947, 840);
-            this.txtPriceUnit.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtPriceUnit.Location = new System.Drawing.Point(517, 455);
             this.txtPriceUnit.Name = "txtPriceUnit";
             this.txtPriceUnit.PasswordChar = '\0';
             this.txtPriceUnit.PlaceholderText = "";
             this.txtPriceUnit.SelectedText = "";
             this.txtPriceUnit.ShadowDecoration.Parent = this.txtPriceUnit;
-            this.txtPriceUnit.Size = new System.Drawing.Size(497, 62);
+            this.txtPriceUnit.Size = new System.Drawing.Size(271, 34);
             this.txtPriceUnit.TabIndex = 8;
             // 
             // txtMedLOT
@@ -213,24 +208,23 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtMedLOT.ForeColor = System.Drawing.Color.Black;
             this.txtMedLOT.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMedLOT.HoverState.Parent = this.txtMedLOT;
-            this.txtMedLOT.Location = new System.Drawing.Point(197, 840);
-            this.txtMedLOT.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtMedLOT.Location = new System.Drawing.Point(107, 455);
             this.txtMedLOT.Name = "txtMedLOT";
             this.txtMedLOT.PasswordChar = '\0';
             this.txtMedLOT.PlaceholderText = "";
             this.txtMedLOT.SelectedText = "";
             this.txtMedLOT.ShadowDecoration.Parent = this.txtMedLOT;
-            this.txtMedLOT.Size = new System.Drawing.Size(500, 62);
+            this.txtMedLOT.Size = new System.Drawing.Size(273, 34);
             this.txtMedLOT.TabIndex = 8;
             // 
             // lblMfgDate
             // 
             this.lblMfgDate.AutoSize = true;
             this.lblMfgDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMfgDate.Location = new System.Drawing.Point(941, 220);
-            this.lblMfgDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMfgDate.Location = new System.Drawing.Point(513, 119);
+            this.lblMfgDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMfgDate.Name = "lblMfgDate";
-            this.lblMfgDate.Size = new System.Drawing.Size(263, 32);
+            this.lblMfgDate.Size = new System.Drawing.Size(150, 20);
             this.lblMfgDate.TabIndex = 10;
             this.lblMfgDate.Text = "Manufacturing Date";
             // 
@@ -242,13 +236,13 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtMfgr.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtMfgr.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.txtMfgr.HoverState.Parent = this.txtMfgr;
-            this.txtMfgr.Location = new System.Drawing.Point(947, 263);
-            this.txtMfgr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMfgr.Location = new System.Drawing.Point(517, 142);
+            this.txtMfgr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtMfgr.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.txtMfgr.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.txtMfgr.Name = "txtMfgr";
             this.txtMfgr.ShadowDecoration.Parent = this.txtMfgr;
-            this.txtMfgr.Size = new System.Drawing.Size(500, 52);
+            this.txtMfgr.Size = new System.Drawing.Size(273, 28);
             this.txtMfgr.TabIndex = 11;
             this.txtMfgr.Value = new System.DateTime(2021, 9, 5, 10, 59, 35, 48);
             // 
@@ -260,13 +254,13 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtExpr.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtExpr.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.txtExpr.HoverState.Parent = this.txtExpr;
-            this.txtExpr.Location = new System.Drawing.Point(947, 440);
-            this.txtExpr.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtExpr.Location = new System.Drawing.Point(517, 238);
+            this.txtExpr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtExpr.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.txtExpr.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.txtExpr.Name = "txtExpr";
             this.txtExpr.ShadowDecoration.Parent = this.txtExpr;
-            this.txtExpr.Size = new System.Drawing.Size(497, 52);
+            this.txtExpr.Size = new System.Drawing.Size(271, 28);
             this.txtExpr.TabIndex = 12;
             this.txtExpr.Value = new System.DateTime(2021, 9, 5, 10, 59, 35, 48);
             // 
@@ -274,10 +268,10 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             this.lblExprDate.AutoSize = true;
             this.lblExprDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblExprDate.Location = new System.Drawing.Point(941, 400);
-            this.lblExprDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblExprDate.Location = new System.Drawing.Point(513, 217);
+            this.lblExprDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblExprDate.Name = "lblExprDate";
-            this.lblExprDate.Size = new System.Drawing.Size(210, 32);
+            this.lblExprDate.Size = new System.Drawing.Size(118, 20);
             this.lblExprDate.TabIndex = 13;
             this.lblExprDate.Text = "Expiration Date";
             // 
@@ -285,10 +279,10 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             this.lblQty.AutoSize = true;
             this.lblQty.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQty.Location = new System.Drawing.Point(941, 599);
-            this.lblQty.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblQty.Location = new System.Drawing.Point(513, 324);
+            this.lblQty.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblQty.Name = "lblQty";
-            this.lblQty.Size = new System.Drawing.Size(122, 32);
+            this.lblQty.Size = new System.Drawing.Size(68, 20);
             this.lblQty.TabIndex = 14;
             this.lblQty.Text = "Quantity";
             // 
@@ -296,10 +290,10 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             this.lblUnitPrc.AutoSize = true;
             this.lblUnitPrc.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUnitPrc.Location = new System.Drawing.Point(941, 797);
-            this.lblUnitPrc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblUnitPrc.Location = new System.Drawing.Point(513, 432);
+            this.lblUnitPrc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUnitPrc.Name = "lblUnitPrc";
-            this.lblUnitPrc.Size = new System.Drawing.Size(273, 32);
+            this.lblUnitPrc.Size = new System.Drawing.Size(154, 20);
             this.lblUnitPrc.TabIndex = 15;
             this.lblUnitPrc.Text = "Price Per Unit (USD)";
             this.lblUnitPrc.Click += new System.EventHandler(this.lblUnitPrc_Click);
@@ -324,11 +318,11 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.btnAdd.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(225)))));
             this.btnAdd.HoverState.Parent = this.btnAdd;
             this.btnAdd.Image = ((System.Drawing.Image)(resources.GetObject("btnAdd.Image")));
-            this.btnAdd.Location = new System.Drawing.Point(947, 998);
-            this.btnAdd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAdd.Location = new System.Drawing.Point(517, 541);
+            this.btnAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.ShadowDecoration.Parent = this.btnAdd;
-            this.btnAdd.Size = new System.Drawing.Size(220, 54);
+            this.btnAdd.Size = new System.Drawing.Size(120, 29);
             this.btnAdd.TabIndex = 16;
             this.btnAdd.Text = "Add";
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
@@ -353,11 +347,11 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.btnReset.HoverState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(225)))));
             this.btnReset.HoverState.Parent = this.btnReset;
             this.btnReset.Image = ((System.Drawing.Image)(resources.GetObject("btnReset.Image")));
-            this.btnReset.Location = new System.Drawing.Point(1225, 998);
-            this.btnReset.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnReset.Location = new System.Drawing.Point(668, 541);
+            this.btnReset.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnReset.Name = "btnReset";
             this.btnReset.ShadowDecoration.Parent = this.btnReset;
-            this.btnReset.Size = new System.Drawing.Size(220, 54);
+            this.btnReset.Size = new System.Drawing.Size(120, 29);
             this.btnReset.TabIndex = 17;
             this.btnReset.Text = "Reset";
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
@@ -381,31 +375,31 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtMedDose.ForeColor = System.Drawing.Color.Black;
             this.txtMedDose.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtMedDose.HoverState.Parent = this.txtMedDose;
-            this.txtMedDose.Location = new System.Drawing.Point(197, 638);
-            this.txtMedDose.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txtMedDose.Location = new System.Drawing.Point(107, 346);
             this.txtMedDose.Name = "txtMedDose";
             this.txtMedDose.PasswordChar = '\0';
             this.txtMedDose.PlaceholderText = "";
             this.txtMedDose.SelectedText = "";
             this.txtMedDose.ShadowDecoration.Parent = this.txtMedDose;
-            this.txtMedDose.Size = new System.Drawing.Size(500, 66);
+            this.txtMedDose.Size = new System.Drawing.Size(273, 36);
             this.txtMedDose.TabIndex = 19;
             // 
             // lblMedDose
             // 
             this.lblMedDose.AutoSize = true;
             this.lblMedDose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMedDose.Location = new System.Drawing.Point(191, 599);
-            this.lblMedDose.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMedDose.Location = new System.Drawing.Point(104, 324);
+            this.lblMedDose.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMedDose.Name = "lblMedDose";
-            this.lblMedDose.Size = new System.Drawing.Size(235, 32);
+            this.lblMedDose.Size = new System.Drawing.Size(132, 20);
             this.lblMedDose.TabIndex = 18;
             this.lblMedDose.Text = "Medicine Dosage";
             // 
             // UC_Pharma_AddMed
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.txtMedDose);
             this.Controls.Add(this.lblMedDose);
@@ -426,9 +420,9 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.Controls.Add(this.txtMedNDC);
             this.Controls.Add(this.lblMedNDC);
             this.Controls.Add(this.lblAddMed);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UC_Pharma_AddMed";
-            this.Size = new System.Drawing.Size(1673, 1142);
+            this.Size = new System.Drawing.Size(913, 619);
             this.ResumeLayout(false);
             this.PerformLayout();
 

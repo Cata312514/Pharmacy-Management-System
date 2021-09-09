@@ -395,7 +395,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.guna2DataGridView5.RowHeadersWidth = 72;
             this.guna2DataGridView5.RowTemplate.Height = 31;
             this.guna2DataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView5.Size = new System.Drawing.Size(733, 304);
+            this.guna2DataGridView5.Size = new System.Drawing.Size(748, 332);
             this.guna2DataGridView5.TabIndex = 17;
             this.guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView5.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -440,7 +440,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.btnDelete.HoverState.ForeColor = System.Drawing.Color.Black;
             this.btnDelete.HoverState.Parent = this.btnDelete;
             this.btnDelete.Image = ((System.Drawing.Image)(resources.GetObject("btnDelete.Image")));
-            this.btnDelete.Location = new System.Drawing.Point(679, 511);
+            this.btnDelete.Location = new System.Drawing.Point(681, 546);
             this.btnDelete.Margin = new System.Windows.Forms.Padding(2);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.ShadowDecoration.Parent = this.btnDelete;
@@ -482,6 +482,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.txtSearchMed);
             this.Controls.Add(this.btnDelete);

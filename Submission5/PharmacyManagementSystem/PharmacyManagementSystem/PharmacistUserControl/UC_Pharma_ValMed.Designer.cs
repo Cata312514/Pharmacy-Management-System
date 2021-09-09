@@ -46,10 +46,10 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             this.lblValidateMed.AutoSize = true;
             this.lblValidateMed.Font = new System.Drawing.Font("Microsoft Sans Serif", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValidateMed.Location = new System.Drawing.Point(102, 98);
-            this.lblValidateMed.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblValidateMed.Location = new System.Drawing.Point(56, 53);
+            this.lblValidateMed.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblValidateMed.Name = "lblValidateMed";
-            this.lblValidateMed.Size = new System.Drawing.Size(450, 59);
+            this.lblValidateMed.Size = new System.Drawing.Size(268, 36);
             this.lblValidateMed.TabIndex = 4;
             this.lblValidateMed.Text = "Validate Medicine";
             // 
@@ -70,10 +70,11 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             "Expired Medicine",
             "View All Medicines"});
             this.txtCheck.ItemsAppearance.Parent = this.txtCheck;
-            this.txtCheck.Location = new System.Drawing.Point(112, 260);
+            this.txtCheck.Location = new System.Drawing.Point(61, 141);
+            this.txtCheck.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtCheck.Name = "txtCheck";
             this.txtCheck.ShadowDecoration.Parent = this.txtCheck;
-            this.txtCheck.Size = new System.Drawing.Size(424, 36);
+            this.txtCheck.Size = new System.Drawing.Size(233, 36);
             this.txtCheck.TabIndex = 5;
             this.txtCheck.SelectedIndexChanged += new System.EventHandler(this.txtCheck_SelectedIndexChanged);
             // 
@@ -81,9 +82,10 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(106, 219);
+            this.label1.Location = new System.Drawing.Point(58, 119);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(95, 32);
+            this.label1.Size = new System.Drawing.Size(54, 20);
             this.label1.TabIndex = 6;
             this.label1.Text = "Check";
             // 
@@ -115,13 +117,14 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(112, 403);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(61, 218);
+            this.guna2DataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.RowHeadersWidth = 72;
             this.guna2DataGridView1.RowTemplate.Height = 31;
             this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1384, 585);
+            this.guna2DataGridView1.Size = new System.Drawing.Size(755, 317);
             this.guna2DataGridView1.TabIndex = 7;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -149,9 +152,10 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             this.lblSet.AutoSize = true;
             this.lblSet.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSet.Location = new System.Drawing.Point(118, 336);
+            this.lblSet.Location = new System.Drawing.Point(64, 182);
+            this.lblSet.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSet.Name = "lblSet";
-            this.lblSet.Size = new System.Drawing.Size(83, 48);
+            this.lblSet.Size = new System.Drawing.Size(49, 29);
             this.lblSet.TabIndex = 8;
             this.lblSet.Text = "Set";
             // 
@@ -161,16 +165,18 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             // 
             // UC_Pharma_ValMed
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.lblSet);
             this.Controls.Add(this.guna2DataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtCheck);
             this.Controls.Add(this.lblValidateMed);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UC_Pharma_ValMed";
-            this.Size = new System.Drawing.Size(1616, 1179);
+            this.Size = new System.Drawing.Size(881, 639);
             this.Load += new System.EventHandler(this.UC_Pharma_ValMed_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.ResumeLayout(false);

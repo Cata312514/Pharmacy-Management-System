@@ -44,7 +44,6 @@ C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\P
 C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\PharmacyManagementSystem\PharmacyManagementSystem\obj\Debug\PharmacyManagementSystem.AdminUserControl.UC_Profile.resources
 C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\PharmacyManagementSystem\PharmacyManagementSystem\obj\Debug\PharmacyManagementSystem.AdminUserControl.UC_ViewUser.resources
 C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\PharmacyManagementSystem\PharmacyManagementSystem\obj\Debug\PharmacyManagementSystem.Form1.resources
-C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\PharmacyManagementSystem\PharmacyManagementSystem\obj\Debug\PharmacyManagementSystem.Pharmacist.resources
 C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\PharmacyManagementSystem\PharmacyManagementSystem\obj\Debug\PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_AddMed.resources
 C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\PharmacyManagementSystem\PharmacyManagementSystem\obj\Debug\PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_DashBrd.resources
 C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\PharmacyManagementSystem\PharmacyManagementSystem\obj\Debug\PharmacyManagementSystem.PharmacistUserControl.UC_Pharma_SellMed.resources

@@ -16,3 +16,5 @@ main Form for logging in updated and debugged code.
 created Pharmacist2 form and attached working codes for user controls to replace initial Pharmacist form.
 
 debugged and updated Pharmacist2 Form design and code.
+
+Final update - Pharmacy Management System working and attached to database (Microsoft SQL)

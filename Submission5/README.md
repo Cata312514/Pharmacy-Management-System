@@ -1,1 +1,6 @@
-This covers the Software Documentation that is consistent with the process model. The documentation also includes after action review.
+This contains Software Documentation for the Pharmacy Management System Project. Other then the source code, the documentation also includes a basic user manual and an After Action Review.
+Activities:
+
+Pharmacy Management Sytem working Program uploaded with just basic functionalities such as Admin controls, creating or adding user accounts, viewing user profiles, updating profile, loging in and out. Pharmacist User Controls such as viewing dashboard, adding medicine, viewing medicine, updating medicine, validating medicine, and selling medicine, as well as logging in and out the system.
+
+Customer User Control is not developed yet. 

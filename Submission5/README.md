@@ -6,3 +6,7 @@ Pharmacy Management Sytem working Program uploaded with just basic functionaliti
 Customer User Control is not developed yet. 
 
 updated made on Pharmacist form design.
+
+more update on Pharmacist form design and debuggin code logic.
+
+mode update and debugging made on Pharmacist form and user controls.

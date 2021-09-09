@@ -14,3 +14,5 @@ mode update and debugging made on Pharmacist form and user controls.
 main Form for logging in updated and debugged code.
 
 created Pharmacist2 form and attached working codes for user controls to replace initial Pharmacist form.
+
+debugged and updated Pharmacist2 Form design and code.

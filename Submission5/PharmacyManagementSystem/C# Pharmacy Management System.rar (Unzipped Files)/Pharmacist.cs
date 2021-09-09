@@ -65,13 +65,14 @@ namespace PharmacyManagementSystem
             uC_Pharma_ValMed2.BringToFront();
         }
 
-        
         private void btnSellMed_Click(object sender, EventArgs e)
         {
             uC_Pharma_SellMed1.Visible = true;
             uC_Pharma_SellMed1.BringToFront();
         }
 
-        
+
+
+
     }
 }

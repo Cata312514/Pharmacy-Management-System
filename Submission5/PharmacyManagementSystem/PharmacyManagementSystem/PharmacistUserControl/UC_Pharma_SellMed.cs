@@ -170,6 +170,16 @@ namespace PharmacyManagementSystem.PharmacistUserControl
 
         }
 
+        private void txtMedNDC_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMedName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnPurPrnt_Click(object sender, EventArgs e)
         {
             DGVPrinter print = new DGVPrinter();

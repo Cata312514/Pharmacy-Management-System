@@ -104,6 +104,12 @@
     <Compile Include="Pharmacist.Designer.cs">
       <DependentUpon>Pharmacist.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pharmacist2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pharmacist2.Designer.cs">
+      <DependentUpon>Pharmacist2.cs</DependentUpon>
+    </Compile>
     <Compile Include="PharmacistUserControl\UC_Pharma_AddMed.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -168,6 +174,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pharmacist.resx">
       <DependentUpon>Pharmacist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pharmacist2.resx">
+      <DependentUpon>Pharmacist2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PharmacistUserControl\UC_Pharma_AddMed.resx">
       <DependentUpon>UC_Pharma_AddMed.cs</DependentUpon>

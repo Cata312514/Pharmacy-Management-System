@@ -477,7 +477,6 @@ namespace PharmacyManagementSystem.PharmacistUserControl
             this.txtSearchMed.ShadowDecoration.Parent = this.txtSearchMed;
             this.txtSearchMed.Size = new System.Drawing.Size(246, 26);
             this.txtSearchMed.TabIndex = 19;
-            
             // 
             // UC_Pharma_ViewMed
             // 

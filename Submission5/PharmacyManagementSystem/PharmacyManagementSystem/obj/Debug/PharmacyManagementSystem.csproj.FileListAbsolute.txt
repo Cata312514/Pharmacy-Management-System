@@ -61,3 +61,4 @@ C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\P
 C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\PharmacyManagementSystem\PharmacyManagementSystem\bin\Debug\PharmacyManagementSystem.pdb
 C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\PharmacyManagementSystem\PharmacyManagementSystem\bin\Debug\Guna.UI2.dll
 C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\PharmacyManagementSystem\PharmacyManagementSystem\obj\Debug\PharmacyManagementSystem.csproj.CopyComplete
+C:\Users\ataca\Desktop\CS504\CS504-Individual-Project-CatherineAta\Submission5\PharmacyManagementSystem\PharmacyManagementSystem\obj\Debug\PharmacyManagementSystem.Pharmacist2.resources

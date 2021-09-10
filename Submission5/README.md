@@ -18,3 +18,5 @@ created Pharmacist2 form and attached working codes for user controls to replace
 debugged and updated Pharmacist2 Form design and code.
 
 Final update - Pharmacy Management System working and attached to database (Microsoft SQL)
+
+Debugged Update/Modify Medicine Functionality to only change details of specified medicine.

@@ -82,7 +82,7 @@ namespace PharmacyManagementSystem.PharmacistUserControl
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             string medName = txtMedName.Text;
-            //string medNDC = txtMedNDC.Text;
+            string medNDC = txtMedNDC.Text;
             string medDose = txtMedDose.Text;
             string medLOT = txtMedLOT.Text;
             string mDate = txtMfgr.Text;
@@ -93,7 +93,11 @@ namespace PharmacyManagementSystem.PharmacistUserControl
 
             totalQty = quantity + addQty;
 
+            /*
             query = "update MedicineList set medName = '" + medName + "', medDose = '" + medDose + "', medLOT = '" + medLOT + "', mDate = '" + mDate + "', eDate = '" + eDate + "', quantity = " + totalQty + ", unitPrice = '" + unitPrice + "'" ;
+            */
+            query = "update MedicineList set medName = '" + medName + "', medDose = '" + medDose + "', medLOT = '" + medLOT + "', mDate = '" + mDate + "', eDate = '" + eDate + "', quantity = " + totalQty + ", unitPrice = '" + unitPrice + "' where medNDC = '"+ txtMedNDC.Text + "'";
+
             fn.setData(query, "Medicine Details Updated.");
         }
 

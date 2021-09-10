@@ -24,3 +24,5 @@ Debugged Update/Modify Medicine Functionality to only change details of specifie
 Added videos as User Tutorial for Admin and Pharmacist users.
 
 Added an After Action Review.
+
+Added PowerPoint Presentation with shells, videos, sample billing statement, etc.

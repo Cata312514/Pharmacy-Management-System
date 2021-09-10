@@ -22,3 +22,5 @@ Final update - Pharmacy Management System working and attached to database (Micr
 Debugged Update/Modify Medicine Functionality to only change details of specified medicine.
 
 Added videos as User Tutorial for Admin and Pharmacist users.
+
+Added an After Action Review.
